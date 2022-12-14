@@ -21,4 +21,4 @@ class AddMiDaS(object):
         x = self.pt2np(sample['jpg'])
         x = self.transform({"image": x})["image"]
         sample['midas_in'] = x
-        return sample
+        return samplef
